@@ -36,7 +36,6 @@ function GenresFilter() {
       setSelectedGenres((prevState) =>
         prevState.filter((genre) => genre !== value)
       );
-      return;
     }
   }
 

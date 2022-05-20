@@ -37,7 +37,6 @@ function RatingsFilter() {
       setSelectedRatings((prevState) =>
         prevState.filter((genre) => genre !== value)
       );
-      return;
     }
   }
 
